@@ -6,7 +6,11 @@
 	<title>饼干很好吃</title>
 </head>
 <body>
-
-<h3>快去拿小饼干吧！</h3>
+	<script>
+      document.cookie = "Flag=This_is_cookie"; 
+      var user=document.cookie.split(";")[0].split("=")[1];
+      window.location.href='cookie.html';
+    </script>
+<h3>cookie1</h3>
 </body>
 </html>
